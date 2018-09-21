@@ -1,0 +1,43 @@
+<templateSet group="Python+">
+  <template name="todo" value="# TODO $date$ $function$: $comment$.$END$" description="Insert TODO comment with current date and user name" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="function" expression="pyFunctionName()" defaultValue="&quot;Global&quot;" alwaysStopAt="false" />
+    <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ifr" value="if random() &lt; $PROBABILTY$:&#10;    $END$&#10;    " description="Insert if random() &lt; value statement" toReformat="false" toShortenFQNames="true">
+    <variable name="PROBABILTY" expression="" defaultValue="&quot;0.5&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try:&#10;    $end1$&#10;except $end2$ as ex:&#10;    $end3$&#10;    raise ex" description="Try and Catch methods" toReformat="false" toShortenFQNames="true">
+    <variable name="end1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="forr" value="for $VAR$ in range($ITERATIONS$):&#10;    $END$" description="Insert for _ in range() loop" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERATIONS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="&quot;_&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="cmm" value="# $END$." description="Insert comment temple" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="hd" value="# $FILENAME$&#10;# Description: $DESCRIPTION$.&#10;# ---------------------------------------------------------------------------------------&#10;&#10;# Imports&#10;&#10;&#10;# Constants&#10;&#10;&#10;$END$" description="Insert header template for a new file" toReformat="true" toShortenFQNames="true">
+    <variable name="FILENAME" expression="fileName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,7 @@
+<templateSet group="OpenAIGym">
+  <template name="action" value="observation, reward, done, info = env.step(action)" description="Insert action command automatically" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
