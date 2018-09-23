@@ -28,7 +28,8 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="cmm" value="# $END$." description="Insert comment temple" toReformat="false" toShortenFQNames="true">
+  <template name="cmm" value="# $COMMENT$.$END$" description="Insert comment temple" toReformat="false" toShortenFQNames="true">
+    <variable name="COMMENT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
