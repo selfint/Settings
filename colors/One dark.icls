@@ -1,7 +1,7 @@
 <scheme name="One dark" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2018-10-05T12:17:45</property>
+    <property name="modified">2018-10-11T18:53:27</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
   <font>
@@ -17,7 +17,7 @@
     <option name="ADDED_LINES_COLOR" value="98c379" />
     <option name="CARET_COLOR" value="ffffff" />
     <option name="CARET_ROW_COLOR" value="2c323b" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="282c34" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1e1e1e" />
     <option name="DELETED_LINES_COLOR" value="e06c75" />
     <option name="GUTTER_BACKGROUND" value="282c34" />
     <option name="INDENT_GUIDE" value="747369" />
