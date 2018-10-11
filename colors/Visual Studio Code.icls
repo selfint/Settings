@@ -1,21 +1,15 @@
-<scheme name="One dark" version="142" parent_scheme="Darcula">
+<scheme name="Visual Studio Code" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-10-11T19:41:35</property>
+    <property name="created">2018-10-11T19:41:16</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2018.2.4.0.0</property>
-    <property name="modified">2018-10-11T19:41:51</property>
-    <property name="originalScheme">One dark copy</property>
+    <property name="modified">2018-10-11T19:51:30</property>
+    <property name="originalScheme">One dark</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.4" />
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
-  </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Courier" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
-  </font>
+  <option name="LINE_SPACING" value="1.3" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_NAME" value="Menlo" />
   <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="98c379" />
@@ -23,9 +17,10 @@
     <option name="CARET_ROW_COLOR" value="2c323b" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1e1e1e" />
     <option name="DELETED_LINES_COLOR" value="e06c75" />
-    <option name="GUTTER_BACKGROUND" value="282c34" />
+    <option name="GUTTER_BACKGROUND" value="1e1e1e" />
     <option name="INDENT_GUIDE" value="747369" />
-    <option name="LINE_NUMBERS_COLOR" value="5c6370" />
+    <option name="LINE_NUMBERS_COLOR" value="858585" />
+    <option name="METHOD_SEPARATORS_COLOR" value="ffffff" />
     <option name="MODIFIED_LINES_COLOR" value="d19a66" />
     <option name="RIGHT_MARGIN_COLOR" value="5c6370" />
     <option name="SELECTED_INDENT_GUIDE" value="747369" />
@@ -537,15 +532,26 @@
         <option name="FOREGROUND" value="98c476" />
       </value>
     </option>
+    <option name="DEFAULT_DOC_COMMENT_TAG">
+      <value>
+        <option name="FOREGROUND" value="cd9178" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_COLOR" value="cd9178" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="79adcf" />
+        <option name="FOREGROUND" value="d5d5a5" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value />
+    </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="8dab7a" />
+        <option name="FOREGROUND" value="c68c74" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -1124,8 +1130,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="c8d3ff" />
-        <option name="BACKGROUND" value="32568e" />
+        <option name="EFFECT_COLOR" value="888888" />
       </value>
     </option>
     <option name="MESSAGE_ARGUMENT">
@@ -1389,7 +1394,7 @@
     </option>
     <option name="PY.CLASS_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="e5c17c" />
+        <option name="FOREGROUND" value="4dc4ac" />
       </value>
     </option>
     <option name="PY.COMMA">
@@ -1402,12 +1407,12 @@
     </option>
     <option name="PY.DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="98c476" />
+        <option name="FOREGROUND" value="cd9178" />
       </value>
     </option>
     <option name="PY.FUNC_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="61afef" />
+        <option name="FOREGROUND" value="c8c99d" />
       </value>
     </option>
     <option name="PY.INVALID_STRING_ESCAPE">
@@ -1418,29 +1423,33 @@
     </option>
     <option name="PY.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="c679dd" />
+        <option name="FOREGROUND" value="559bd4" />
+      </value>
+    </option>
+    <option name="PY.KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="96d3f4" />
       </value>
     </option>
     <option name="PY.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="9d5050" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="699854" />
       </value>
     </option>
     <option name="PY.NUMBER">
       <value>
-        <option name="FOREGROUND" value="d2945d" />
+        <option name="FOREGROUND" value="a4ba98" />
       </value>
     </option>
     <option name="PY.PARAMETER">
       <value>
-        <option name="FOREGROUND" value="d19a66" />
+        <option name="FOREGROUND" value="95d1f2" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="cf7600" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FOREGROUND" value="c8c99d" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.PREDEFINED_USAGE">
@@ -1450,12 +1459,17 @@
     </option>
     <option name="PY.SELF_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="e06c75" />
+        <option name="FOREGROUND" value="559bd4" />
       </value>
     </option>
     <option name="PY.STRING">
       <value>
         <option name="FOREGROUND" value="98c379" />
+      </value>
+    </option>
+    <option name="PY.STRING.B">
+      <value>
+        <option name="FOREGROUND" value="c68c74" />
       </value>
     </option>
     <option name="PY.VALID_STRING_ESCAPE">
@@ -1963,8 +1977,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="abb2bf" />
-        <option name="BACKGROUND" value="282c34" />
+        <option name="FOREGROUND" value="d1d1d1" />
+        <option name="BACKGROUND" value="1e1e1e" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
