@@ -4,7 +4,7 @@
     <property name="created">2017-02-11T17:36:13</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2018-10-15T08:29:20</property>
+    <property name="modified">2018-10-15T20:50:24</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -21,6 +21,12 @@
     <option name="FILESTATUS_SWITCHED" value="f77669" />
   </colors>
   <attributes>
+    <option name="MT_DIRECTORIES">
+      <value>
+        <option name="FOREGROUND" value="d1d1d1" />
+        <option name="BACKGROUND" value="1e1e1e" />
+      </value>
+    </option>
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="a9b7c6" />
