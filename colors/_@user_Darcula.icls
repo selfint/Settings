@@ -4,7 +4,7 @@
     <property name="created">2017-02-11T17:36:13</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2018-10-16T18:53:32</property>
+    <property name="modified">2018-10-16T18:54:25</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -24,7 +24,7 @@
     <option name="MT_DIRECTORIES">
       <value>
         <option name="FOREGROUND" value="d1d1d1" />
-        <option name="BACKGROUND" value="404040" />
+        <option name="BACKGROUND" value="939393" />
       </value>
     </option>
     <option name="TEXT">
