@@ -2,7 +2,7 @@
   <component name="MaterialThemeConfig">
     <option name="version" value="2.9.0-pre1" />
     <option name="selectedTheme" value="ONE_DARK" />
-    <option name="highlightColor" value="21252b" />
+    <option name="highlightColor" value="21242b" />
     <option name="highlightColorEnabled" value="true" />
     <option name="highlightThickness" value="1" />
     <option name="isContrastMode" value="true" />
@@ -12,7 +12,6 @@
     <option name="isCompactTables" value="true" />
     <option name="tabOpacity" value="100" />
     <option name="compactDropdowns" value="true" />
-    <option name="settingsSelectedTab" value="3" />
     <option name="userId" value="78be1d18:164bd2c7fb2:-8000" />
     <option name="allowDataCollection" value="true" />
     <option name="isHighContrast" value="true" />
