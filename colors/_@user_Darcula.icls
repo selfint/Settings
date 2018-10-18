@@ -4,7 +4,7 @@
     <property name="created">2017-02-11T17:36:13</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2018-10-18T19:17:26</property>
+    <property name="modified">2018-10-18T20:27:42</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -18,6 +18,7 @@
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
     <option name="FILESTATUS_IDEA_SVN_REPLACED" value="629755" />
     <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="808080" />
+    <option name="FILESTATUS_MODIFIED" value="e1bf8c" />
     <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
     <option name="FILESTATUS_RENAMED" value="3a8484" />
     <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
@@ -27,7 +28,6 @@
     <option name="MT_DIRECTORIES">
       <value>
         <option name="FOREGROUND" value="d1d1d1" />
-        <option name="BACKGROUND" value="939393" />
       </value>
     </option>
     <option name="TEXT">
