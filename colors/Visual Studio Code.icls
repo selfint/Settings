@@ -5,7 +5,7 @@
     <property name="description">Visual Studio Code</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2018.2.4.0.0</property>
-    <property name="modified">2018-10-18T21:32:32</property>
+    <property name="modified">2018-10-25T09:00:11</property>
     <property name="originalScheme">One dark</property>
     <property name="vendorMail">selfint@gmail.com</property>
     <property name="vendorName">tom</property>
@@ -23,6 +23,7 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="1e1e1e" />
     <option name="DELETED_LINES_COLOR" value="e06c75" />
     <option name="FILESTATUS_MODIFIED" value="e1bf8c" />
+    <option name="FILESTATUS_NOT_CHANGED" value="c8c8c8" />
     <option name="GUTTER_BACKGROUND" value="1e1e1e" />
     <option name="INDENT_GUIDE" value="747369" />
     <option name="LINE_NUMBERS_COLOR" value="858585" />
@@ -1168,7 +1169,7 @@
     <option name="MT_DIRECTORIES">
       <value>
         <option name="FOREGROUND" value="d1d1d1" />
-        <option name="BACKGROUND" value="2f333d" />
+        <option name="BACKGROUND" value="252526" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
