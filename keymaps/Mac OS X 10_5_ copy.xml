@@ -3,6 +3,9 @@
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="shift ctrl back_space" />
+  </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
